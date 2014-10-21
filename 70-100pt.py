@@ -34,10 +34,18 @@ roof2 = drawpad.create_line(400,40,600,150)
 #The door
 door = drawpad.create_rectangle(350,400,450,550)
 
-#Four windows (1 = top left, 2 = bottom left, 3 = top right, 4 = bottom right)
+#Four windows (1 = top left, 2 = bottom left, 3 = top right, 4 = bottom right) (7x7)
 window1 = drawpad.create_rectangle(240,230,310,300)
 window2 = drawpad.create_rectangle(240,400,310,470)
 window3 = drawpad.create_rectangle(490,230,560,300)
 window4 = drawpad.create_rectangle(490,400,560,470)
+
+#The door handle (2x2)
+handle = drawpad.create_oval(420,470,440,490)
+
+#The chimney (1 = left side, 2 = right side, 3 = top)
+chimney1 = drawpad.create_line(250,30,250,123)
+chimney2 = drawpad.create_line(310,30,310,90)
+chimney3 = drawpad.create_line(250,30,310,30)
 
 root.mainloop()
